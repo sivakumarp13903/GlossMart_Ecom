@@ -10,6 +10,7 @@
   border-radius: 20px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+  margin-top: 20px;
 }
 
 /* Cart Items Container */

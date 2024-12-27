@@ -12,7 +12,7 @@ const Add = ({url}) => {
         name:"",
         description:"",
         price:"",
-        category:"Salad"
+        category:"Stationaries"
     })
 
     const onChangeHandler = (event) => {
@@ -72,7 +72,7 @@ const Add = ({url}) => {
                     <select onChange={onChangeHandler} name="category">
                         <option value="Stationaries">Stationaries</option>
                         <option value="Beauty_Products">Beauty Products</option>
-                        <option value="Beauty_Products">Beauty Products</option>
+                        <option value="Milk_Products">Milk Products</option>
                         <option value="Baby_Products">Baby Products</option>
                         <option value="vegitables">vegitables</option>
                         <option value="Friuts">Friuts</option>
